@@ -2,10 +2,10 @@
 "use client"
 
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
-import { useTheme } from "next-themes";
+// import { useTheme } from "next-themes";
 
 const Footer = () => {
-  const { theme } = useTheme();
+  // const { theme } = useTheme();
 
   return (
     <>

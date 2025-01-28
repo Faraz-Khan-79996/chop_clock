@@ -3,7 +3,7 @@
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 import { Input } from "@/components/ui/input";
-import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+// import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { Moon, Sun } from "lucide-react";
 
 const Navbar = () => {
