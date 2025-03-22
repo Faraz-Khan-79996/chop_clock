@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <div className="min-h-screen">
       {/* Navbar */}
-      <Navbar />
+      {/* <Navbar /> */}
 
       {/* Main Content */}
       <main className="flex flex-col items-center justify-center min-h-[80vh] p-6">
@@ -18,7 +18,7 @@ const HomePage = () => {
       </main>
 
       {/* Footer */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

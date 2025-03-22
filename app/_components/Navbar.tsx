@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import { Input } from "@/components/ui/input";
 // import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { Moon, Sun } from "lucide-react";
+import Link from "next/link";
 
 const Navbar = () => {
   const { resolvedTheme, setTheme } = useTheme();
@@ -19,7 +20,7 @@ const Navbar = () => {
           <div className="bg-blue-500 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold text-lg">
             CC
           </div>
-          <h1 className="text-2xl font-bold">ChopClock</h1>
+          <Link href="/" className="text-2xl font-bold">ChopClock</Link>
         </div>
         <Input placeholder="Search..." className="w-64" />
       </div>
